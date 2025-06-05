@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
 }
+/* primera seccion */
 .fondo{
     width: 100%;
     height: 200vh;
@@ -29,10 +30,11 @@
 }
 .datos{
     width: 30%;
-    height: 20vh;
+    height: 15vh;
     background-color: #e2f5d6de;
     border-radius: 100px;
     box-shadow: 0 0 30px var(--verde);
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,9 +47,11 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h2{
+    width: 100%;
     font-size: 20px;
     color: var(--verde);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
 }
 .img1{
     width: 250px;
@@ -60,9 +64,31 @@ ul,li{
     font-size: 20px;
     color: var(--verde-oscuro);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-radius: 100px;     
+    border-radius: 100px;
+    list-style: none;
 }
-
+.info{
+    width: 140%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #4caf4f6c;
+    box-shadow: 0 0 30px #4caf4f9f;
+}
+#etiqueta{
+    width: 12%;
+    height: 5vh;
+    font-size: 20px;
+    color: var(--verde-claro);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: var(--verde-oscuro);
+    border-radius: 15px;
+}
+/* segunda seccion */
+/* margin max 1rem-16px */
 .seccion2{
     width: 100%;
     height: 30vh;
@@ -72,7 +98,7 @@ ul,li{
     gap: 4rem;
 }
 .subtitulos{
-    width: 27%;
+    width: 28%;
     height: 10vh;
     display: flex;
     justify-content: center;
@@ -80,20 +106,29 @@ ul,li{
 }
 .educacion{
     width: 41%;
-    height: 20vh;
-    background-color: #2e7d322c;
+    height: 24vh;
+    background-color: #ffffff1a;
+    box-shadow: 0 0 30px #4caf4f57;
     border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4rem;
+    text-align: center;
 }
+
 p{
-    font-size: 20px;
-    color: #000000be;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    text-align: start;
+    font-size: 18px;
+    color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    margin: 1rem;  
 }
+/* tercera seccion */
 .seccion3{
     width: 100%;
     height: 30vh;
@@ -104,12 +139,13 @@ p{
 }
 .experiencia{
     width: 20%;
-    height: 20vh;
+    height: 25vh;
     background-color: #2e7d322c;
     border-radius: 15px;
     justify-content: space-evenly;
     border-top-color: #2e7d32;
 }
+/* cuarta seccion */
 .seccion4{
     width: 100%;
     height: 40vh;
@@ -130,3 +166,4 @@ p{
     background-color: #2e7d322c;
     border-radius: 15px;
 }
+/* etiqueta se llama progress */
