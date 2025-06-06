@@ -11,22 +11,24 @@
 /* primera seccion */
 .fondo{
     width: 100%;
-    height: 200vh;
+    height: 195vh;
     background-color: var(--verde-claro);
 }
 .parte1{
     width: 100%;
-    height: 65vh;
+    height: 60vh;
 }
 .seccion1{
     width: 100%;
-    height: 40vh;
+    height: 30vh;
     background-image: url(../multimedia/imagenes/descarga\ \(2\).jpg);
     background-size: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    align-items: center;
     box-shadow: 0 0 30px var(--verde);
+    position: relative;
 }
 .datos{
     width: 30%;
@@ -36,8 +38,28 @@
     box-shadow: 0 0 30px var(--verde);
     margin-top: 60px;
     display: flex;
+    align-items: center;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    position: absolute;
+    
+}
+.datos1{
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.datos2{
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -58,7 +80,8 @@ h2{
     box-shadow: 0 0 30px var(--verde);
     border-radius: 100%;
     justify-content: center;
-    margin-top: 250px;
+    position: absolute;
+    top: 22vh;
 }
 ul,li{
     font-size: 20px;
@@ -66,9 +89,10 @@ ul,li{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 100px;
     list-style: none;
+    
 }
 .info{
-    width: 140%;
+    width: 100%;
     height: 4vh;
     display: flex;
     align-items: center;
@@ -78,7 +102,7 @@ ul,li{
     box-shadow: 0 0 30px #4caf4f9f;
 }
 #etiqueta{
-    width: 12%;
+    width: 18%;
     height: 5vh;
     font-size: 20px;
     color: var(--verde-claro);
@@ -86,12 +110,23 @@ ul,li{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: var(--verde-oscuro);
     border-radius: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 20%;
+}
+#etiquetap{
+    font-size: 20px;
+    color: var(--verde-claro);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /* segunda seccion */
 /* margin max 1rem-16px */
 .seccion2{
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,7 +166,7 @@ p{
 /* tercera seccion */
 .seccion3{
     width: 100%;
-    height: 30vh;
+    height: 45vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,31 +174,84 @@ p{
 }
 .experiencia{
     width: 20%;
-    height: 25vh;
-    background-color: #2e7d322c;
+    height: 30vh;
+    border-top: #2e7d32 solid 15px;
+    background-color: #ffffff1a;
+    box-shadow: 0 0 30px #4caf4f57;
     border-radius: 15px;
-    justify-content: space-evenly;
-    border-top-color: #2e7d32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
 }
+#experienciap{
+    width: 90%;
+    height: 10vh;
+    margin: 1rem;
+    text-align: inherit;
+    display: flex;
+    align-items: start;
+}
+#div3{
+    background-color: #4caf4f36;
+    box-shadow: 0 0 30px #4caf4f85;
+}
+
 /* cuarta seccion */
 .seccion4{
     width: 100%;
-    height: 40vh;
+    height: 25vh;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    position: relative;
 }
 .div1{
     width: 55%;
-    height: 20vh;
-    background-color: #2e7d322c;
+    height: 14vh;
+    background-color: #ffffff1a;
+    box-shadow: 0 0 30px #4caf4f57;
+    display: flex;
+    align-items: center;
+    justify-content: start;
     border-radius: 15px;
+    position: absolute;
+    right: 39%;
 }
 .div2{
-    width: 30%;
-    height: 20vh;
-    background-color: #2e7d322c;
+    width: 55%;
+    height: 14vh;
+    background-color: #ffffff1a;
+    box-shadow: 0 0 30px #4caf4f57;
     border-radius: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    left: 105%;
 }
+.progress{
+    width: 100%;
+    height: 3vh;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#porcentaje{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#idiomas{
+    width: 40%;
+    margin: 1rem;
+}
+#logo{
+    position: absolute;
+    right: 10%;
+    left: -10%;
+    margin: 1rem;
+}
+
 /* etiqueta se llama progress */
